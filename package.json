@@ -1,0 +1,29 @@
+{
+  "name": "cf-auth-toolkit-node",
+  "version": "0.1.0",
+  "description": "A module for OAuth / Cloud Controller API access control",
+  "main": "index.js",
+  "scripts": {
+    "test": "banner -w 30 no tests yet, :3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfmobile/cf-auth-toolkit-node.git"
+  },
+  "keywords": [
+    "CF",
+    "CloudFoundry",
+    "Auth",
+    "OAuth"
+  ],
+  "author": "@pivotal-topher-bullock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfmobile/cf-auth-toolkit-node/issues"
+  },
+  "homepage": "https://github.com/cfmobile/cf-auth-toolkit-node",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "request": "^2.44.0"
+  }
+}
