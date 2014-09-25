@@ -1,0 +1,5 @@
+{
+    "authorization_domain": "login",
+    "token_domain": "uaa",
+    "cloud_controller_domain": "api"
+}

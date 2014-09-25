@@ -4,7 +4,7 @@
   "description": "A module for OAuth / Cloud Controller API access control",
   "main": "index.js",
   "scripts": {
-    "test": "banner -w 30 no tests yet, :3"
+    "test": "grunt unitTest"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,22 @@
   "dependencies": {
     "lodash": "^2.4.1",
     "request": "^2.44.0"
+  },
+  "devDependencies" : {
+    "debug": "~0.7.4",
+    "istanbul": "^0.3.0",
+    "sinon": "^1.10.2",
+    "grunt": "^0.4.5",
+    "supertest": "^0.13.0",
+    "nock": "^0.34.1",
+    "grunt-istanbul": "^0.3.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-env": "^0.4.1",
+    "should": "^4.0.4",
+    "grunt-shell": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.11.0",
+    "rewire": "^2.0.1"
   }
 }
