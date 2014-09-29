@@ -24,9 +24,10 @@
   "homepage": "https://github.com/cfmobile/cf-auth-toolkit-node",
   "dependencies": {
     "lodash": "^2.4.1",
-    "request": "^2.44.0"
+    "request": "^2.44.0",
+    "config": "^1.2.1"
   },
-  "devDependencies" : {
+  "devDependencies": {
     "debug": "~0.7.4",
     "istanbul": "^0.3.0",
     "sinon": "^1.10.2",
