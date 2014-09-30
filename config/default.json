@@ -1,11 +1,14 @@
 {
   "uaa" : {
+    "UAA_ENABLED" : true,
     "UAA_CLIENT_ID" : "login",
     "UAA_CLIENT_SECRET" : "loginclientsecret",
+    "UAA_SCOPES" : "openid",
     "UAA_REDIRECT_URI" : "",
-    "UAA_URL" : "uaa.some.env.cf-app.com",
-    "UAA_ENABLED" : true,
-    "LOGIN_URL" : "/",
-    "LOGIN_PATH_NAME" : "/oauth/authorize"
+    "LOGIN_PATHNAME" : "/oauth/authorize",
+    "CF_HOST" : "some.env.cf-app.com",
+    "UAA_DOMAIN" : "uaa",
+    "LOGIN_DOMAIN" : "login",
+    "CC_API_DOMAIN" : "api"
   }
 }

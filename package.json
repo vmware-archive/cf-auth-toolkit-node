@@ -1,5 +1,5 @@
 {
-  "name": "cf-auth-toolkit-node",
+  "name": "cf-auth-tools",
   "version": "0.1.0",
   "description": "A module for OAuth / Cloud Controller API access control",
   "main": "index.js",
