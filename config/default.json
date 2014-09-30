@@ -9,6 +9,7 @@
     "CF_HOST" : "some.env.cf-app.com",
     "UAA_DOMAIN" : "uaa",
     "LOGIN_DOMAIN" : "login",
-    "CC_API_DOMAIN" : "api"
+    "CC_API_DOMAIN" : "api",
+    "VERBOSE" : true
   }
 }
