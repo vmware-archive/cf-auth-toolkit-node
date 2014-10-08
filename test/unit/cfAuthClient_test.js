@@ -64,7 +64,7 @@ describe('UAAClient Resource', function() {
 
     it("should attempt to refresh access token if info request returns false and refresh token is defined", function(done) {
       
-      var scope = nock("https://"+ config.UAA_DOMAIN + "." + config.CF_HOST)
+      var scope = nock("https://"+ config.UAA_DOMAIN + "." + config.CF_SYS_DOMAIN)
         .get('/userinfo')
         .reply(500, { error : true })
         .get("/oauth/token?redirect_uri=&grant_type=refresh_token&refresh_token=refresh_1234")

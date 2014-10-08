@@ -39,11 +39,13 @@ module.exports = function(grunt) {
       coverage: {
         APP_DIR_FOR_CODE_COVERAGE: '../test/coverage/instrument/app/',
         NODE_ENV : 'test',
-        CF_HOST : "localhost"
+        CF_SYS_DOMAIN : "localhost",
+        CF_APPS_DOMAIN : "localhost"
       },
       test : {
         NODE_ENV : 'test',
-        CF_HOST : "localhost"
+        CF_SYS_DOMAIN : "localhost",
+        CF_APPS_DOMAIN : "localhost"
       }
     },
     clean: {
